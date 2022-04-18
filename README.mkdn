@@ -29,14 +29,15 @@ chmod a+rx ~/.bin/repo
 ```
 
 ### 1.2 Initializing Repo ###
-
-```bash
 # Create a directory for the source files
 # This can be located anywhere (as long as the fs is case-sensitive)
+
+```bash
 mkdir crDroid
 cd crDroid
-
+```
 # Install Repo in the created directory
+```bash
 repo init -u https://github.com/crdroidandroid/android.git -b 11.0
 ```
 
