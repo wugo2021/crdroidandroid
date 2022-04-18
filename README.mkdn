@@ -45,13 +45,13 @@ This is what you will run each time you want to pull in upstream changes. Keep i
 first run, it is expected to take a while as it will download all the required Android source files
 and their change histories.
 
-```bash
 # Let Repo take care of all the hard work
+```bash
 repo sync
 ```
 
-```bash
 # Run to prepare our devices list
+```bash
 . build/envsetup.sh
 # ... now run
 brunch "your device codename"
